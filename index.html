@@ -17,116 +17,119 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/media.css">
   </head>
   <body>
-    <header class="main-head">
+    <header class="head">
       <div class="container">
-        <nav class="main-nav">
-          <a href="#" class="main-nav__logo">MoGo</a>
-          <div class="menuToggle">
+        <nav class="main__navigation">
+          <a href="#" class="main__navigation--logo">MoGo</a>
+          <!--<div class="menuToggle">
             <span></span>
-          </div>
-          <div class="nav-list-wrap">
-            <ul class="nav-list">
-              <li class="nav-list__item">
-                <a href="#" class="nav-list__link">About</a>
+          </div> -->
+          <div class="list">
+            <ul class="list__navigation">
+              <li class="list__navigation--item">
+                <a href="#" class="list__navigation--link">About</a>
               </li>
-              <li class="nav-list__item">
-                <a href="#" class="nav-list__link">service</a>
+              <li class="list__navigation--item">
+                <a href="#" class="list__navigation--link">service</a>
               </li>
-              <li class="nav-list__item">
-                <a href="#" class="nav-list__link">work</a>
+              <li class="list__navigation--item">
+                <a href="#" class="list__navigation--link">work</a>
               </li>
-              <li class="nav-list__item">
-                <a href="#" class="nav-list__link">blog</a>
+              <li class="list__navigation--item">
+                <a href="#" class="list__navigation--link">blog</a>
               </li>
-              <li class="nav-list__item">
-                <a href="#" class="nav-list__link">contact</a>
+              <li class="list__navigation--item">
+                <a href="#" class="list__navigation--link">contact</a>
               </li>
             </ul>
-            <div class="nav-buttons">
-              <button class="nav-buttons__button">
+            <div class="buttons">
+              <button class="buttons__form">
                 <a href="#">
-                  <svg>
-                    <use
-                      href="./img/social/sprite.svg#icon-shopping-cart"
-                    ></use>
+                  <svg class="buttons__form--icon">
+                    <use href="./img/social/sprite.svg#icon-shopping-cart">
+                    </use>
                   </svg>
                 </a>
               </button>
-              <button class="nav-buttons__button">
+              <button class="buttons__form">
                 <a href="#"
-                  ><svg>
-                    <use
-                      href="./img/social/sprite.svg#icon-magnifying-glass"
-                    ></use></svg></a>
+                  ><svg class="buttons__form--icon">
+                    <use href="./img/social/sprite.svg#icon-magnifying-glass">
+                    </use>
+                  </svg>
+                </a>
               </button>
             </div>
           </div>
-        <div class="main-title">
-        <h1 class="primary">
-          <span class="main-title-1">Creative Template</span>
-          <span class="main-title-2">Welcome to MoGo</span>
-        </h1>
-        
-        <div class="main-button">
-          <form action="#">
-            <button class="main-button-form">learn more</button>
-          </form>
-        </div>
+          </nav>
+        <div class="main__title">
+          <h1>
+            <span class="main__title--first">Creative Template</span>
+            <span class="main__title--second">Welcome to MoGo</span>
+          </h1>
+          <div>
+            <form action="#">
+              <button class="main__button--form">learn more</button>
+            </form>
+          </div>
         </div>
       </div>
     </header>
 
     <div class="size-container">
+      
       <section>
-        <div class="title-container">
-          <div class="title">
+          
+          <div class="title__services">
             <h2>
-              <span class="title-1">we work with</span>
-              <span class="title-2">amazing services</span>
+              <span class="title__services--first">we work with</span>
+              <span class="title__services--second">amazing services</span>
             </h2>
           </div>
-        </div>
+        
 
-        <div class="services-container">
-          <ul class="services">
-            <li class="services-list">
+        <div class="services">
+          <ul class="services__list">
+            <li class="services__list--item">
               <h3>photography</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
             </li>
-            <li class="services-list">
+            <li class="services__list--item">
               <h3>web desing</h3>
               <p>
                 Ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
             </li>
-            <li class="services-list">
+            <li class="services__list--item">
               <h3>creativity</h3>
               <p>
                 Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor.
               </p>
             </li>
-            <li class="services-list">
+            <li class="services__list--item">
               <h3>seo</h3>
               <p>
                 Ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
             </li>
-            <li class="services-list">
+            <li class="services__list--item">
               <h3>css/html</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
             </li>
-            <li class="services-list">
+            <li class="services__list--item">
               <h3>digital</h3>
               <p>
                 Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
@@ -137,10 +140,10 @@
       </section>
 
       <div class="title-container-2">
-        <div class="title">
+        <div class="title_team">
           <h2>
-            <span class="title-1">who we are </span>
-            <span class="title-2">meet your team</span>
+            <span class="title__team--first">who we are </span>
+            <span class="title__team--second">meet your team</span>
           </h2>
         </div>
         <div>
@@ -151,16 +154,12 @@
             aliquip ex ea commodo consequat.
           </p>
         </div>
-        <div class="team-list">
-          <ul class="team-item">
-            <li class="team-list-item">
+        <div>
+          <ul class="team__list">
+            <li class="team__list--item">
               <div class="overlay">
                 <div class="img-overlay">
-                  <img
-                    srcset="
-                      ./img/Layer_16@2x.png 380w,
-                      ./img/Layer_16@2x.png 760w
-                    "
+                  <img srcset="./img/Layer_16@2x.png 380w, ./img/Layer_16@2x.png 760w"
                     sizes="380px"
                     src="./img/Layer_16.png"
                     alt="photo"
@@ -209,7 +208,7 @@
               </div>
             </li>
 
-            <li class="team-list-item">
+            <li class="team__list--item">
               <div class="overlay">
                 <div class="img-overlay">
                   <img
@@ -265,7 +264,7 @@
               </div>
             </li>
 
-            <li class="team-list-item">
+            <li class="team__list--item">
               <div class="overlay">
                 <div class="img-overlay">
                   <img
