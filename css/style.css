@@ -28,45 +28,19 @@ a {
   margin: 0 auto;
 }
 
-/*NAVIGATION*/
-
-.head {
-  background-image: url("../img/main-photo.png");
+.top-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1920px;
+  min-height: 1000px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(251, 227, 137, 0.75)), to(rgba(243, 138, 129, 0.95)) ),url('../img/mainphoto.jpg');
+  background-image: -o-linear-gradient(bottom, rgba(251, 227, 137, 0.75), rgba(243, 138, 129, 0.95)), url('../img/mainphoto.jpg');
+  background-image: linear-gradient(0deg, rgba(251, 227, 137, 0.75), rgba(243, 138, 129, 0.95)), url('../img/mainphoto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  position: relative;
-  padding-top: 24px;
-  padding-bottom: 230px;
-  width: 1920px;
-  height: 1000px;
+  text-align: center;
 }
 
-.head:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(rgba(252, 227, 138, 0.9)),
-    to(rgba(243, 129, 129, 0.9))
-  );
-  background-image: -o-linear-gradient(
-    bottom,
-    rgba(252, 227, 138, 0.9) 0%,
-    rgba(243, 129, 129, 0.9) 100%
-  );
-  background-image: linear-gradient(
-    to top,
-    rgba(252, 227, 138, 0.9) 0%,
-    rgba(243, 129, 129, 0.9) 100%
-  );
-  width: 100%;
-  height: 100%;
-}
 
 .container {
   max-width: 1230px;
@@ -204,7 +178,7 @@ a {
 .main-title {
   text-align: center;
   margin: 0 auto;
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   margin-top: 300px;
