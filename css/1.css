@@ -1,0 +1,26 @@
+.btn {
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: rgba(78, 198, 171, 0.5);
+    -webkit-transition: linear 400ms;
+    -o-transition: linear 400ms;
+    transition: linear 400ms;
+    margin: 0;
+  }
+
+  .main-button__form {
+    background: none;
+    border: 2px solid #ffffff;
+    padding: 14px 46px;
+  }
+
+
+
+.all-buttons {
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

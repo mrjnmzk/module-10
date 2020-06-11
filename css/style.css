@@ -202,16 +202,20 @@ a {
   text-transform: uppercase;
 }
 
-.main-button__form {
+.all-buttons {
   color: #ffffff;
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.main-button__form {
   background: none;
   border: 2px solid #ffffff;
   padding: 14px 46px;
 }
+
 .main-button__link {
   color: #ffffff;
   font-family: "Montserrat";
@@ -611,11 +615,6 @@ input::placeholder {
   width: 150px;
   height: 40px;
   background-color: rgba(78, 198, 171, 0.5);
-  color: #ffffff;
-  font-family: "Montserrat";
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
   -webkit-transition: linear 400ms;
   -o-transition: linear 400ms;
   transition: linear 400ms;
