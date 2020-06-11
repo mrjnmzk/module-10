@@ -17,133 +17,137 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="head">
       <div class="container">
-        <nav class="main__navigation">
-          <a href="#" class="main__navigation--logo">MoGo</a>
-           <div class="list">
-            <ul class="list__navigation">
-              <li class="list__navigation--item">
-                <a href="#" class="list__navigation--link">About</a>
+        <nav class="main-navigation">
+          <a href="#" class="main-navigation__logo">MoGo</a>
+          <div class="list">
+            <ul class="list-navigation">
+              <li class="list-navigation__item">
+                <a href="#" class="list-navigation__link">About</a>
               </li>
-              <li class="list__navigation--item">
-                <a href="#" class="list__navigation--link">service</a>
+              <li class="list-navigation__item">
+                <a href="#" class="list-navigation__link">service</a>
               </li>
-              <li class="list__navigation--item">
-                <a href="#" class="list__navigation--link">work</a>
+              <li class="list-navigation__item">
+                <a href="#" class="list-navigation__link">work</a>
               </li>
-              <li class="list__navigation--item">
-                <a href="#" class="list__navigation--link">blog</a>
+              <li class="list-navigation__item">
+                <a href="#" class="list-navigation__link">blog</a>
               </li>
-              <li class="list__navigation--item">
-                <a href="#" class="list__navigation--link">contact</a>
+              <li class="list-navigation__item">
+                <a href="#" class="list-navigation__link">contact</a>
               </li>
             </ul>
-            <div class="buttons">
-              <button class="buttons__form">
+            <class class="buttons">
+              <button class="buttons-form">
                 <a href="#">
-                  <svg class="buttons__form--icon">
-                    <use href="./img/social/sprite.svg#icon-shopping-cart">
-                    </use>
+                  <svg class="buttons-form__icon">
+                    <use
+                      href="./img/social/sprite.svg#icon-shopping-cart"
+                    ></use>
                   </svg>
                 </a>
               </button>
-              <button class="buttons__form">
+              
+              <button class="buttons-form all-buttons">
                 <a href="#"
-                  ><svg class="buttons__form--icon">
-                    <use href="./img/social/sprite.svg#icon-magnifying-glass">
-                    </use>
+                  ><svg class="buttons-form__icon">
+                    <use
+                      href="./img/social/sprite.svg#icon-magnifying-glass"
+                    ></use>
                   </svg>
                 </a>
               </button>
+              </class>
             </div>
           </div>
-          </nav>
-        <div class="main__title">
-          <h1>
-            <span class="main__title--first">Creative Template</span>
-            <span class="main__title--second">Welcome to MoGo</span>
-          </h1>
-          <div>
-            <form action="#">
-              <button class="main__button--form">learn more</button>
-            </form>
-          </div>
-        </div>
+        </nav>
       </div>
     </header>
 
+    <div class="main-title">
+      <h1>
+        <span class="main-title__first">Creative Template</span>
+        <span class="main-title__second">Welcome to MoGo</span>
+      </h1>
+      <div class="main-button">
+        <button class="main-button__form all-buttons">
+          <a class="main-button__link" href="">learn more</a>
+        </button>
+      </div>
+    </div>
+
     <div class="size-container">
-      
-      <section>
-          
-          <div class="title__services">
+      <div class="services-container">
+        <section>
+          <div class="title-services">
             <h2>
-              <span class="title__services--first">we work with</span>
-              <span class="title__services--second">amazing services</span>
+              <span class="title-services__first">we work with</span>
+              <span class="title-services__second">amazing services</span>
             </h2>
           </div>
-        
 
-        <div class="services">
-          <ul class="services__list">
-            <li class="services__list--item">
-              <h3>photography</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
-              </p>
-            </li>
-            <li class="services__list--item">
-              <h3>web desing</h3>
-              <p>
-                Ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
-              </p>
-            </li>
-            <li class="services__list--item">
-              <h3>creativity</h3>
-              <p>
-                Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor.
-              </p>
-            </li>
-            <li class="services__list--item">
-              <h3>seo</h3>
-              <p>
-                Ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
-              </p>
-            </li>
-            <li class="services__list--item">
-              <h3>css/html</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
-              </p>
-            </li>
-            <li class="services__list--item">
-              <h3>digital</h3>
-              <p>
-                Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
+          <div class="services">
+            <ul class="services-list">
+              <li class="services-list__item">
+                <h3>photography</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
+              </li>
+              <li class="services-list__item">
+                <h3>web desing</h3>
+                <p>
+                  Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor.
+                </p>
+              </li>
+              <li class="services-list__item">
+                <h3>creativity</h3>
+                <p>
+                  Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor.
+                </p>
+              </li>
+              <li class="services-list__item">
+                <h3>seo</h3>
+                <p>
+                  Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor.
+                </p>
+              </li>
+              <li class="services-list__item">
+                <h3>css/html</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
+              </li>
+              <li class="services-list__item">
+                <h3>digital</h3>
+                <p>
+                  Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
 
       <div class="title-container-2">
-        <div class="title_team">
+        <div class="title-team">
           <h2>
-            <span class="title__team--first">who we are </span>
-            <span class="title__team--second">meet your team</span>
+            <span class="title-team__first">who we are </span>
+            <span class="title-team__second">meet your team</span>
           </h2>
         </div>
-        <div>
+        
           <p class="paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -152,11 +156,15 @@
           </p>
         </div>
         <div>
-          <ul class="team__list">
-            <li class="team__list--item">
+          <ul class="team-list">
+            <li class="team-list__item">
               <div class="overlay">
                 <div class="img-overlay">
-                  <img srcset="./img/Layer_16@2x.png 380w, ./img/Layer_16@2x.png 760w"
+                  <img
+                    srcset="
+                      ./img/Layer_16@2x.png 380w,
+                      ./img/Layer_16@2x.png 760w
+                    "
                     sizes="380px"
                     src="./img/Layer_16.png"
                     alt="photo"
@@ -177,24 +185,27 @@
                         ><svg>
                           <use
                             href="./img/social/sprite.svg#icon-instagram"
-                          ></use></svg>
-                        </a>
+                          ></use>
+                        </svg>
+                      </a>
                     </button>
                     <button class="social-button">
                       <a href="#"
                         ><svg>
                           <use
                             href="./img/social/sprite.svg#icon-pinterest"
-                          ></use></svg>
-                        </a>
+                          ></use>
+                        </svg>
+                      </a>
                     </button>
                     <button class="social-button">
                       <a href="#"
                         ><svg>
                           <use
                             href="./img/social/sprite.svg#icon-twitter"
-                          ></use></svg>
-                        </a>
+                          ></use>
+                        </svg>
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -205,7 +216,7 @@
               </div>
             </li>
 
-            <li class="team__list--item">
+            <li class="team-list__item">
               <div class="overlay">
                 <div class="img-overlay">
                   <img
@@ -233,8 +244,9 @@
                         ><svg>
                           <use
                             href="./img/social/sprite.svg#icon-instagram"
-                          ></use></svg>
-                        </a>
+                          ></use>
+                        </svg>
+                      </a>
                     </button>
                     <button class="social-button">
                       <a href="#"
@@ -261,7 +273,7 @@
               </div>
             </li>
 
-            <li class="team__list--item">
+            <li class="team-list__item">
               <div class="overlay">
                 <div class="img-overlay">
                   <img
@@ -333,7 +345,9 @@
               type="email"
               placeholder="Your email..."
             />
+            <div class="all-buttons">
             <button class="btn">Subscribe</button>
+            </div>
           </div>
         </footer>
       </div>
