@@ -28,6 +28,10 @@ a {
   margin: 0 auto;
 }
 
+.head {
+  padding-top: 26px;
+}
+
 .top-container {
   margin-left: auto;
   margin-right: auto;
@@ -181,7 +185,10 @@ a {
   /*position: absolute;*/
   top: 0;
   left: 0;
-  margin-top: 300px;
+  margin-top: 230px;
+  min-width: 800px;
+  max-width: 800px;
+
 }
 
 .main-title__first {
@@ -208,6 +215,10 @@ a {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.main-button {
+  padding-top: 126px;
 }
 
 .main-button__form {
@@ -392,7 +403,7 @@ h2 {
   padding: 0;
 }
 
-.social-button {
+.social__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -411,14 +422,14 @@ h2 {
   transition: linear 400ms;
 }
 
-.social-button svg {
+.social__button svg {
   display: block;
   width: 35px;
   height: 35px;
   fill: #f38181;
 }
 
-.social-button a:hover svg {
+.social__button a:hover svg {
   -webkit-transition: linear 400ms;
   -o-transition: linear 400ms;
   transition: linear 400ms;
@@ -441,7 +452,7 @@ h2 {
     background-image: url(../img/social/instagram.png)
 }*/
 
-.social-button:hover {
+.social__button:hover {
   background-color: #f38181;
   -webkit-transition: linear 400ms;
   -o-transition: linear 400ms;
@@ -453,7 +464,7 @@ h2 {
   margin-bottom: 31px;
 }
 
-.social-container {
+.social {
   background-image: -webkit-gradient(
     linear,
     left bottom,
@@ -486,7 +497,7 @@ h2 {
   transition: 0.3s;
 }
 
-.social-container {
+.social {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -501,11 +512,11 @@ h2 {
   left: 0;
 }
 
-.social-button:not(last-child) {
+.social__button:not(last-child) {
   margin-right: 2px;
 }
 
-.team-list__item:hover .social-container {
+.team-list__item:hover .social {
   visibility: visible;
   opacity: 1;
   -webkit-transition: linear 400ms;
@@ -526,14 +537,14 @@ h2 {
 
 /* footer */
 
-.sign {
+.footer__sign {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
   padding: 0;
 }
 
-.name-des {
+.footer__link {
   color: #f38181;
 }
 
@@ -551,11 +562,11 @@ h2 {
   margin-top: 82px;
 }
 
-.footer-sign {
+.sign-container {
   padding: 24px 0px 24px 0px;
 }
 
-.form-control {
+.form__field {
   width: 230px;
   height: 40px;
 
@@ -564,7 +575,7 @@ h2 {
   box-sizing: border-box;
 }
 
-.footer-form {
+.form-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -610,7 +621,7 @@ input::placeholder {
   font-weight: 400;
 }
 
-.btn {
+.form__submint {
   border: none;
   width: 150px;
   height: 40px;
@@ -621,7 +632,7 @@ input::placeholder {
   margin: 0;
 }
 
-.btn:hover {
+.form__submint:hover {
   background-color: rgba(78, 198, 171, 1);
   -webkit-transition: linear 400ms;
   -o-transition: linear 400ms;
